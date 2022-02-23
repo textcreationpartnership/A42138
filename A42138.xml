@@ -1,0 +1,518 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gospel truths scripturally asserted in answer to Joseph Hallett's twenty seven queries by John Gannacliff and Joseph Nott.</title>
+            <author>Gannacliff, John.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1692</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 77 KB of XML-encoded text transcribed from 26 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A42138</idno>
+            <idno type="STC">Wing G199</idno>
+            <idno type="STC">ESTC R30399</idno>
+            <idno type="EEBO-CITATION">11308427</idno>
+            <idno type="OCLC">ocm 11308427</idno>
+            <idno type="VID">47401</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A42138)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 47401)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1461:32)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Gospel truths scripturally asserted in answer to Joseph Hallett's twenty seven queries by John Gannacliff and Joseph Nott.</title>
+                  <author>Gannacliff, John.</author>
+                  <author>Nott, Joseph, d. 1699.</author>
+               </titleStmt>
+               <extent>24 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed and sold by T. Sowle ...,</publisher>
+                  <pubPlace>[London?] :</pubPlace>
+                  <date>1692.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Imperfect: pages cropped with loss of print. BBN copy, also defective, appears to be a different issue and is spliced at end.</note>
+                  <note>Reproduction of original in the Bodleian Library and Bevan-Naish Collection.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Hallett, Joseph, 1656-1722. --  Twenty seven queries.</term>
+               <term>Society of Friends --  Doctrines.</term>
+               <term>Theology, Doctrinal.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-07</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-11</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2010-11</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:47401:1"/>
+            <pb facs="tcp:47401:1" rendition="simple:additions"/>
+            <p>Goſpel Truths SCRIPTURALLY ASSERTED IN ANSWER TO <hi>Joſeph Hallett's</hi> Twenty Seven QUERIES.</p>
+            <q>Search the Scriptures, for in them ye think to have Eternal Life, and they are they which teſtifie of me: and ye will not come to me that ye might have Life,
+<bibl>John 5. 39. 40.</bibl>
+            </q>
+            <q>Come unto me all ye that Labour, and are heavy Laden, and I will give you Reſt; take my Yoke upon you, and learn of me, for I am meek and lowly in Heart, and you ſhall find Reſt unto your Souls,
+<bibl>Matth. 11. 28, 29.</bibl>
+            </q>
+            <p>By <hi>John Gannacliff</hi> and <hi>Joſeph Nott.</hi>
+            </p>
+            <p>Printed, and Sold by <hi>T. Sowle</hi> at the <hi>Crooked-Billet,</hi> in <hi>Holywell Lane,</hi> in <hi>Shoreditch,</hi> 1692.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:47401:2"/>
+            <pb n="3" facs="tcp:47401:2"/>
+            <head>Goſpel Truths Scripturally aſſerted, &amp;c.</head>
+            <div type="preface">
+               <head>The PREFACE.</head>
+               <p>NOw by this the Reader may know, that we lately received twenty ſeven Queries, with <hi>Joſph Halletts</hi> Name to them, Preacher amongſt the <hi>Presbyterians</hi> in <hi>Exon,</hi> who in his Introduction, ſaith, <hi>That theſe kind of People, commonly called</hi> Quakers, <hi>are ſaid to hold many pernitious and dangerous Doctrines, no way agreeable to the Truth, as 'tis taught by Jeſus.</hi> Now we ſhall anſwer thus, That thoſe that ſay theſe afore-mentioned things of us, cannot prove them, for they are not true; for we hold nothing contrary to the Truth; for our Doctrine is nei<g ref="char:EOLhyphen"/>ther pernitious nor dangerous, but according to the holy Scriptures of Truth, as it may farther appear in the Anſwers to the afore-mentioned Queries. The <hi>Querieſt</hi> ſeems not Ingenious nor Charitable in prejudicially pre-ſup<g ref="char:EOLhyphen"/>poſing that doubtful, ambiguous, prevaricating, ſhuffling, abſurd and clou<g ref="char:EOLhyphen"/>dy Expreſſions, or Anſwers may be given to his Queſtions, which becomes not one pretending to Query for Information, but gives us occaſion to queſ<g ref="char:EOLhyphen"/>tion, Whether he'l ingeniouſly accept our plain and ſincere Anſwers, though therein we are truly Conſcientious towards God.</p>
+            </div>
+            <div type="part">
+               <p>Query 1 ſt. <hi>I would deſire them to reſolve me what the Light within is, of which they talk and write ſo much; and that they would give me a plain Deſcription of it?</hi>
+               </p>
+               <p>
+                  <hi>Anſwer.</hi> THis <hi>Light within,</hi> of which we talk and write ſo much, is Heavenly and Divine; for it is the Light of Jeſus Chriſt, our Lord and Saviour, as may be proved by the holy Scrip<g ref="char:EOLhyphen"/>tures of Truth; for the Lord ſpeaking by the Prophet <hi>Iſaiah,</hi> of Chriſt, ſaith, <hi>I the Lord have called thee in Righteouſneſs, and will hold thine Hand, and will keep thee, and give thee for a Covenant of the People, for a Light of the Gentiles,</hi> Iſa. 42. 6. And in Chap. 49. 6. the Lord ſpeaks by the ſame Prophet again of Chriſt; and ſaith, <hi>I will alſo give thee for a Light to the</hi> Gentiles, <hi>that thou mayſt be my Salvation unto the Ends of the Earth.</hi> And <hi>Simeon</hi> that Juſt and
+<pb n="4" facs="tcp:47401:3"/>
+devout Man, took the Child Jeſus up in his Arms, and bleſſed God, and ſaid, <hi>Lord, now letteſt thou thy Servant depart in Peace, according to thy Word, for mine Eyes have ſeen thy Salvation which thou haſt prepared before the face of all People, a Light to lighten the</hi> Gentiles, <hi>and the Glory of thy People</hi> Iſrael, Luk. 2. 25, 27, 28, 29, 30, 31, 32. And Jeſus Chriſt bears Teſtimony of him<g ref="char:EOLhyphen"/>ſelf, ſaying, <hi>I am the Light of the World, he that follows me ſhall not walk in Darkneſs, but ſhall have the Light of Life,</hi> John 8. 12. And the Apoſtle <hi>John</hi> bears Teſtimony of Chriſt, and ſaith, <hi>In him was Life, and the Life was the Light of m<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>n, and the Light ſhineth in Darkneſs, and the Darkneſs comprehendeth it not: There<g ref="char:punc">▪</g> was a Man ſent from God, whoſe Name was</hi> John, <hi>the ſame came for a Witneſs to bear Witneſs of the Light, that all men through him might believe,</hi> (mark) <hi>he was not that Light,</hi> (to wit <hi>John) but was ſent to bear Witneſs of that Light<g ref="char:punc">▪</g> that was the true Light which lighteth every man that cometh into the World,</hi> John 1. 4, 5, 6, 7, 8, 9. And the Apoſtle <hi>Paul</hi> ſpake of this Light, and ſaid, <hi>God who commanded the Light to ſhine out of Darkneſs, hath ſhined in our Hearts, to give the Light of the Knowledge of the Glory of God in the face of Jeſus Chriſt: But we have this Treaſure in Earthen Veſſels,</hi> 2 Cor. 4. 6, 7. Well then, <hi>This is the Condemnation that Light is come into the World, and men love Darkneſs rather than Light, becauſe their Deeds are Evil,</hi> John 3. 19. And now indeed we may ſay, we do greatly admire at the Ignorance of <hi>Joſeph Hallett,</hi> concerning the Light, ſeeing he is a pretended Miniſter of Chriſt: But let him pretend to what he will, he appears to be a Miniſter of Anti<g ref="char:EOLhyphen"/>chriſt, and of thoſe that rebel againſt the Light, and know not the Ways thereof, nor abide in the Paths thereof, <hi>Job</hi> 24. 13.</p>
+               <p>Query 2. <hi>Do the</hi> Quakers <hi>believe that there are Three in One, or that there is a Trinity, the Father, the Son, and the holy Ghoſt, and that theſe three are but one God in Eſſence and Nature?</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> We do moſt certainly believe as it is recorded in the holy Scrip<g ref="char:EOLhyphen"/>tures of Truth, <hi>That there are three that bear Record in Heaven, the Father, the Word, and the Holy Ghoſt, and theſe three are one,</hi> 1 John 5. 7. And Jeſus Chriſt our Lord and Redeemer ſaith, <hi>I and my Father are one,</hi> John 10. 30. And this we moſt certainly believe.</p>
+               <p>Query 3. <hi>Whether they eſteem the Scriptures of the Old and New Teſtament, to be the written Word, Will or Mind of God, and to be the only Rule of Faith, Worſhip and Manners? Or whether the Light within be a higher or ſuperiour Rule, to which we muſt more eſpecially attend in all matters of Doctrine, Worſhip and Conver<g ref="char:EOLhyphen"/>ſation.</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> We eſteem the holy Scriptures of the Old and New Teſtament, to be given by Divine Inſpiration, to contain Words of God, and a True Declaration of the Will and Mind of God, and of the Word and only Rule of Faith and Worſhip, <hi>&amp;c.</hi> and therefore the holy Spirit, divine Inſpira<g ref="char:EOLhyphen"/>tion and Light, as preferred to, and higher than the Scriptures or Writings. <hi>Anti-Query,</hi> 1. Where do the holy Scriptures call themſelves the written
+<pb n="5" facs="tcp:47401:3"/>
+Word, Will or Mind of God? 2. How can they be, or contain his Will or Mind which is eſſential to himſelf? 3. Where do the holy Scriptures ſo call themſelves the <hi>Only Rule</hi> of Faith, Worſhip and Manners? 4. They who ſo hold, and cannot prove the aff<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rmative by Scriptures, is not their Faith greatly defective as to this great Article of their Faith, namely in their believing that the Scriptures are the Only Rule of there Faith, and yet can<g ref="char:EOLhyphen"/>not prove they are ſo by plain Scriptures. 5. What mean the Words <hi>Only Rul<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> of Faith?</hi> &amp;c. Do they not either mean <hi>Only</hi> by way of Emmence, or higher, or ſuperiour to all other, or only as the ſole Rule excluſive of all other? which to affirm of Scriptures, is to exclude the Spirit. 6. But if the holy Spirit be included in the Only Rule of Faith, how can it be properly or truly ſaid of the Scriptures that they are the only Rule of Faith, and yet have no Scripture that ſaith they are ſo? Now this we do really believe, that the Scriptures, the Old and New Teſtament, were written by the Holy Men of God, as they were moved thereunto by the Holy Ghoſt: And we do believe whatſoever things were written afore-time, were written for our Learning, that we through Patience and Comfort of the Scriptures might have hope, <hi>Rom.</hi> 15. 4. And we do believe, That <hi>the Scriptures are able to make wiſe unto Salvation, through Faith which is in Chriſt Jeſus,</hi> (mark) through Faith which is in Chriſt Jeſus: And in this <hi>the Scripture is profitable for Doctrine, for Reproof, for Correction, for Inſtruction in Righteouſneſs, that the Man of God may be perfect, throughly furniſhed unto all Good Works,</hi> 2 Tim. 3. 15, 16, 17. Now here we may ſee, that it is through Faith in Chriſt Jeſus that the Scriptures are profitable unto us: But we do not remember that the Scriptures in any place do ſay they are the Written Word, Will and Mind of God, or the Only Rule of Faith, Worſhip and Manners; and therefore we do deſire <hi>Joſeph Hallett,</hi> or any other man, to prove it by Scrip<g ref="char:EOLhyphen"/>ture if they can. But this we do find, that Jeſus Chriſt is called <hi>the Word of God</hi> in ſeveral places in the holy Scriptures; for <hi>John</hi> ſaith, <hi>In the beginning was the Word, and the Word was with God, and the Word was God, the ſame was in the beginning with God, all things were made by him, and without him was not any thing made that was made,</hi> John 1. 1, 2, 3.</p>
+               <p>Now here it is plain that the Apoſtle called Chriſt the <hi>Word of God:</hi> for it cannot be reaſonably ſuppoſed or ſaid, that the Scriptures were in the beginning with God, or that the Scripture was God, or that all things were made by them; for what we underſtand, <hi>Moſes</hi> did write the firſt five Books, which was many hundred Years after the beginning: So that it is plain, that Chriſt is <hi>the Word of God, by whom the Worlds were framed,</hi> Heb. 11. 3. So now we would not have any to be ignorant of this, <hi>That by the Word of God the Heavens were of Old, and the Earth ſtanding out of the Water, and in the Water,</hi> 2 Pet. 3. 5. And <hi>John</hi> hath written in the <hi>Revelations</hi> of this Word of God; for he ſaith, <hi>I ſaw Heaven opened, and behold a White Horſe, and he that ſate upon him was called Faithful and True, and in Righteouſ<g ref="char:EOLhyphen"/>neſs
+<pb n="6" facs="tcp:47401:4"/>
+he doth Judge and make War; his Eyes were as a Flame of Fire, and on his Head were many Crowns, and he had a Name written that no man knew, but he himſelf; and he was cloathed with a Veſture d<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>pt in Blood, and his Name is called the Word of God,</hi> Rev. 19. 11, 12, 13. And this is <hi>The Word of God which is quick and powerful, and ſharper than any two edged Sword, piercing even to the di<g ref="char:EOLhyphen"/>viding aſſunder of Soul and Spirit, and of the Joynts and Marrow, and is a Diſcerner of the Thoughts and Intents of the Heart,</hi> Heb. 4. 12. Now this Word of God is nigh unto People, <hi>even in the Mouth and in the Heart,</hi> Rom. 10. 8. And this Word of God (to wit Chriſt Jeſus) doth declare the Mind and Will of God, and is the only Rule of Faith, Worſhip and Manners: For if we ſay that theſe afore-mentioned things, are things of God, then the Apoſtle ſaith, <hi>The things of God knoweth no man, but the Spirit of God.</hi> And he farther ſaith, <hi>Now we have received not the Spirit of the World, but the Spirit which is of God, that we might know the things that are freely given to us of God,</hi> 1 Cor. 2. 11, 12. Now if any would know the Will and Mind of God, they muſt turn in their Minds unto the gift of God's Spirit in their own Hearts; <hi>For that which may be known of God, is manifeſt in them, for God hath ſhewed unto them,</hi> Rom. 1. 19. And again, the Apoſtle ſaith, <hi>It is God that worketh in you both to will and to do of his good pleaſure,</hi> Phil. 2. 13. Now concerning Faith, Chriſt ſaith, <hi>When the Son of Man cometh, ſhall he find Faith on Earth?</hi> Luk. 18. 8 Now it is written that <hi>Faith cometh by hearing, and heari<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>g by the Word of God,</hi> Rom. 10. 17. Chriſt is the Word of God, and he is the Author and Finiſher of our Faith, it is undeniable; for the Apoſtle ſaith, <hi>Looking unto Jeſus th<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Author and Finiſher of our Faith,</hi> Heb. 12. 2. And concerning Worſhip, Chriſt ſaith, <hi>The Hour cometh, and now is, when the true Worſhippers ſhall worſhip the Father in Spirit and in Truth; for the Father ſeeketh ſuch to worſhip him:</hi> And he further ſaith, <hi>God is a Spirit, and they that worſhip him muſt worſhip him in Spirit and in Truth,</hi> John 4. 23, 24. We deſire the Reader to take notice of this, for it is a weighty thing to be a Worſhipper of God, and it muſt be performed by the aſſiſtance of God's Spirit; for Chriſt ſaith in plain words, <hi>Without me ye can do nothing,</hi> John 15. 5. And the Apoſtle <hi>Paul</hi> ſaith, <hi>As many as are led by the Spirit of God, they are the Sons of God,</hi> Rom. 8. 14. And we ſay, if Sons, then true Worſhippers. The Apoſtles were come unto the Spiritual Wor<g ref="char:EOLhyphen"/>ſhip; for the Apoſtle <hi>Paul</hi> ſaith, <hi>We are the Circumciſion which worſhip God in the Spirit, and rejoyce in Chriſt Jeſus, and have no confidence in the Fleſh,</hi> Phil. 3. 3. Now concerning Manners, we find it thus written, that <hi>Evil Com<g ref="char:EOLhyphen"/>munications corrupt good Manners,</hi> 1 Cor. 15. 33. Therefore if any be wil<g ref="char:EOLhyphen"/>ling to know good Manners, then let them take the Apoſtle's advice in the next Verſe, where he ſaith, <hi>Awake to Righteouſneſs, and ſin not:</hi> Now it is the holy Ghoſt that teacheth People Good Manners; for Chriſt ſaith, <hi>He ſhall teach them all things, and bring all things to your Remembrance,</hi> John 14. 26.</p>
+               <p>
+                  <pb n="7" facs="tcp:47401:4"/>And now concerning the Light within, it doth manifeſt unto the Sons and Daughters of men their States and Conditions, and by it Thoughts, Words and Actions are tryed; and by the Light of Jeſus we come to underſtand theſe things which are written in the holy Scriptures of Truth; and there<g ref="char:EOLhyphen"/>fore it is a higher and ſuperiour Rule, unto which we ought more eſpecially to attend, it being according to Scripture; for Chriſt ſaith, <hi>While ye have the Light, believe in the Light, that ye may be the Children of the Light; Theſe things ſpake Jeſus,</hi> John 12. 36. And it is written, <hi>That every one that doth Evil, hateth the Light, neither cometh to the Light, leſt his Deeds ſhould be reproved: But he that doth Truth, cometh to the Light, that his Deeds may be made manifeſt that they are wrought in God,</hi> John 3. 20, 21. (Mark) it is the Light that diſ<g ref="char:EOLhyphen"/>covereth and maketh manifeſt, as it is walked in, it is an undeniable Truth; for it is evidently ſet forth by the Apoſtle <hi>Paul,</hi> for he ſaith, <hi>All things that are reproved, are made manifeſt by the Light; for whatſoever doth make manifeſt is Light,</hi> Epheſ. 5. 13.</p>
+               <p>And obſerve <hi>John's</hi> Teſtimony of the Light, and the Priviledge that doth attend thoſe that walk therein: for he ſaith, <hi>God is Light, and in him is no Darkneſs at all: If we ſay that we have fellowſhip with him, and walk in Darkneſs, we Lye, and do not the Truth; but if we walk in the Light, as he is in the Light, we have fellowſhip one with another, and the Blood of Jeſus Chriſt his Son cleanſeth us from all Sin,</hi> 1 John 1. 5, 6, 7. Well then, <hi>the Nations of them which are ſaved, ſhall walk in the Light,</hi> Rev. 21. 24. And the Lord ſent the Apoſtle <hi>Paul</hi> to <hi>turn People from Darkneſs to Light,</hi> Acts 26. 18. But what have the Watch<g ref="char:EOLhyphen"/>men of the Night, the Merchants of <hi>Babylon</hi> been a doing theſe many Years? Why, they have laboured to keep People from the Light, and Wo and Mi<g ref="char:EOLhyphen"/>ſery will be their Portion, if they Repent not.</p>
+               <p>Qu. 4. <hi>Whether they believe any ſuch thing as Original Sin? that is, Whether every Man is a Sinner, and defilled from his very Birth? Or whether Children, when born into the World, have their Natures depraved and corrupted by Sin.</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> If by Original Sin, be meant the firſt Sin of <hi>Adam,</hi> there was ſuch a Sin: But all have not ſinned after that ſimilitude, nor is every Man or Child a Sinner depraved and corrupted by Sin from his Natural Birth. The Prophet <hi>Ezekiel</hi> ſaith, <hi>This Proverb ſhall no more be uſed in</hi> Iſrael, <hi>The Fathers have eaten ſower Grapes, and the Childrens Teeth are ſet on edge: Behold, ſaith the Lord, all Souls are mine, both the Soul of the Father and the Soul of the Son are mine; the Soul that ſinneth it ſhall dye,</hi> Ezek. 18. 2, 3, 4, 5. Jer. 31. 29, 30. Shall we aſcribe the Wages of Sin to thoſe that never ſinned? Chriſt ſaid, <hi>Suffer little Children to come unto me, and forbid them not; for of ſuch is the Kingdom of Heaven,</hi> Matth. 19. 13, 14. Mark 10. 13, 14. And Chriſt ſaith, <hi>Whoſoever ſhall not receive the Kingdom of God as a little Child, ſhall not enter therein.</hi> Some were ſaid to be ſanctified from the Womb, as <hi>John</hi> the <hi>Baptiſt;</hi> the Prophet <hi>Jeremiah,</hi> Chap. 1. 5. <hi>Before I formed thee in the Womb
+<pb n="8" facs="tcp:47401:5"/>
+I knew thee; and before thou cameſt out of the Womb I ſanctified thee, and ordained thee to be a Prophet unto the Nations.</hi> But as to the General eſtate of Mankind, the Apoſtle hath made known what man is by Nature, <hi>dead in Sins and Treſ<g ref="char:EOLhyphen"/>paſſes,</hi> and how man is ſaved, 2 <hi>Epheſ. You hath he quickened, who were dead in Treſpaſſes and Sins,</hi> Epheſ. 2. 1. <hi>And you who were dead in Sins and the <g ref="char:V">Ʋ</g>ncir<g ref="char:EOLhyphen"/>cumciſion of your Fleſh hath he Quickened together with him, Forgiving you all your Treſpaſſes,</hi> 2 Epheſ. 5. <hi>When we were dead by Sins, hath he quickened us together in Chriſt, by whoſe Grace we are ſaved,</hi> 2 Theſ. 2. 13. <hi>But we ought to give Thanks alwayes for you Brethren, beloved of the Lord, becauſe God hath from the beginning choſen you to Salvation through Sanctification of the Spirit and Belief of the Truth.</hi>
+               </p>
+               <p>Qu. 5. <hi>Whether the Soul or Spirit of a Man is Immortal? Whether it will never dye? Or Whether the Soul lives whilſt the Body lies rotting in the Grave?</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> Yea, Immortal, never Dyes, but ever Lives, which are all one; The Queriſt might have ſpared ſuch impertinant Reitterations. Yea, we be<g ref="char:EOLhyphen"/>lieve, and that really as the Body goeth to Duſt, ſo the Spirit returns to God that gave it; <hi>for if in this Life we have hope only, we are of all Men moſt Miſe<g ref="char:EOLhyphen"/>rable.</hi>
+               </p>
+               <p>Qu. 6. <hi>Whether the Bodies of the Saints ſhall be raiſed again, by the Power of God, out of their Graves at the laſt day?</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> Yea, Spiritual, we believe according to Scripture the Reſurrection of Juſt and Unjuſt; and that each ſhall receive a reward according to things done in the Body; The Righteous unto Everlaſting Life, and the Wicked unto Everlaſting Condemnation. Well, but now we may ſay as the Apoſtle <hi>Paul</hi> ſaid, <hi>Awake to Righteouſneſs a<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>d Sin not:</hi> But yet ſome one may ſay. How are the Dead Raiſed up, and with what Bodys do they come? <hi>Thou Fool, that which thou ſoweſt is not Quic<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ened except it Dye, and that which thou ſoweſt, thou ſoweſt not that Body that ſhall be; But God giveth it a Body as it hath pleaſed him, and to every ſeed his own Body. There are Coeleſtial Bodys, and Bodys Ter<g ref="char:EOLhyphen"/>reſtial; but the Glory of the Coeleſtial is one, and the Glory of the Terreſtial is ano<g ref="char:EOLhyphen"/>ther: There is a Natural Body, and there is a Spiritual Body; A<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>d as <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ne have born the Image of the Earthly, we ſhall alſo bear the Image of the Heavenly; but this I ſay, Fleſh and Blood cannot inherit the Kingdom of God, neither doth Corruption Inherit Incorruption,</hi> 1 Cor. 15, 34, 35, 36, 37, 38, 40, 44, 45, 50.</p>
+               <p>Qu. 7. <hi>Whether Chriſt that ſuffered without the Walls of</hi> Jeruſalem, <hi>was true God, and alſo true Man? I demand a full direct Anſwer to this Queſtion, and pray let there be no Equivocation or ſhiftings here?</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> Yea, Chriſt was true God, and true Man, tho' it was as Man that he ſuffers, for the Divinity and Manhood of Chriſt; ſee <hi>Matth.</hi> 1. 23. <hi>John</hi> 1. 1, 2, 3, 4. <hi>Prov.</hi> 8. 22, 23, 24. to the en<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. <hi>Pſal.</hi> 33. 6. <hi>Coll.</hi> 1. 16, 1<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:punc">▪</g> 
+                  <hi>Eph.</hi> 3. 9. <hi>Heb.</hi> 1. 2. <hi>Rom.</hi> 9. 5. <hi>Rev.</hi> 3 14. 1 <hi>John</hi> 5. 20. <hi>Pſal.</hi> 45. 6, 7. <hi>Heb.</hi> 1. 9. <hi>Iſa.</hi> 9<g ref="char:punc">▪</g> 6. 7. Chap. 32. 2. <hi>John</hi> 10. 29<g ref="char:punc">▪</g> and Chap. 14. 28. <hi>Rom.</hi> 1. 3, 4. 1 <hi>Cor.</hi> 15. Chap. 3. 4, 5, 6, 7, 8, 45, 47. 1 <hi>Tim.</hi> 2. 5. <hi>Gal.</hi> 3. 20. <hi>Heb.</hi> 8. 6. chap. 9.
+<pb n="9" facs="tcp:47401:5"/>
+15. chap. 12. 24. And if the Queriſt will not believe us, but think we Equivocate, let him ask us no more Queſtions until he be more cha<g ref="char:EOLhyphen"/>ritable.</p>
+               <p>Qu. 8. <hi>Whether Chriſt by his Holy Life, and painful Death, Satisfied the Juſtice of God that was offended by the Sin of Man, and thereby merited Pardon of Sin, and all other Mercies and Bleſſings for us?</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> This Query appears not conſiſtant in the matters implyed between ſatisfying offended Juſtice and Pardon of Sin, or between a Strict payment and a forgiveneſs of the Debt; Yet no doubt God was well pleaſed, and ſo ſatisfied in his Dear Son Chriſt (being the Son of his Love) both in his Life, Suffering and Death, and all the Worth, Merit, Deſert and Dignity thereof, and truly aſcribed <hi>unto Chriſt in Holy Scriptures</hi> for the univerſal good of Mankind, we muſt needs own and highly eſteem, yet not as in<g ref="char:EOLhyphen"/>tended to acquit the Guilty<g ref="char:punc">▪</g> nor to indemnifie, Pardon, or Juſtifie Perſons in their Sins, or without Faith in his Name, true repentance and Conver<g ref="char:EOLhyphen"/>ſion; But that they may come under theſe conditions, and receive Pardon thereupon. <hi>Antiquery,</hi> 1. How did Chriſt ſatisfy the offended Juſtice of the Father? 2. Did he undergo vindicative Juſtice in the Offenders ſtead? 3. Did he pay all the debt in Man's ſtead? 4. And was it for all Mankind, or for ſome only? 5. Or did he not rather appeaſe, ſtay and ſuſpend the Execution of Di<g ref="char:EOLhyphen"/>vine Vengeance and Wrath, and manifeſt God's forbearance in order to recon<g ref="char:EOLhyphen"/>cile Mankind, and obtain Redemption for all. 6. And did not Chriſt dye for all Men, taſted Death for every Man?</p>
+               <p>Qu. 9. <hi>Whether Chriſt has not a Body in Heaven now? And whether he conti<g ref="char:EOLhyphen"/>nues not to be a Man as well as God ſtill?</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> Yea, to both; we do believe that Chriſt has a Body, and that he is in Heaven, and that he continues to be the Heavenly Man, as well as God ſtill, Glorified with the ſame Glory that he had with the Father before the World was, according as he Prayed; <hi>John</hi> 17. 5.</p>
+               <p>Qu. 10. <hi>Whether Chriſt doth not now Intercede with the Father for Holy Souls in Heaven<g ref="char:punc">▪</g> And if ſo, what this Interceſſion is?</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> This Query appears Unlearned, and Unſcriptural; where does the Scripture ſay, that Chriſt doth now Intercede for Holy Souls in Heaven, and for what end? Though he be in Heaven Interceſſor and Mediator for Mankind or Souls on Earth. Now this we do believe that there is one Mediator between God and Man; the Man Chriſt Jeſus; for the Apoſtle ſpeaking concerning Chriſt, ſaith, <hi>He is able to ſave them to the uttermoſt that come unto God by him ſeeing he ever Liveth to make Interceſſion for them, Heb.</hi> 7. 25. Chriſt doth not only make Interceſſion for Sinners, that their Sins may be forgiven them, but for them alſo that are delivered from Sin, that they may be preſerved out of Sin, and that they may be where he is, as is evident from Chriſt's Words, for he ſaith, <hi>I pray not that thou ſhould<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ſt take
+<pb n="10" facs="tcp:47401:6"/>
+them out of the World;</hi> but <hi>that thou ſhouldeſt keep them from the evil.</hi> And he farther ſaith, <hi>Father, I will that they alſo whom thou haſt given me, be with me where I am, that they may behold my Glory, which thou haſt given me, John</hi> 17. 15. 24. And this is the Interceſſion which Chriſt makes for his People, which is according to the Will of God.</p>
+               <p>Qu. 11. <hi>Whether Chriſt will not at the laſt Day, at the Diſſolution of the World, come to Judge the whole World appearing in his Manhood, pronouncing the Wicked Accurſed, and the Holy Bleſſed?</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> The Lord Jeſus Chriſt will Judge the World in Righteouſneſs, and reward every Man according to his Works, the Wicked Accurſed, the Righteous Bleſſed, <hi>Acts</hi> 10. 42. He commanded us, to wit Chriſt, to teſtifie that it was He that was Ordained of God to be Judge both of Quick and Dead, becauſe he hath appointed a Day in which he will Judge the World in Righteouſneſs, by that Man of which he hath given Aſſurance to all Men, in that he hath raiſed him from the Dead. See <hi>Acts</hi> the 17. and 31. And we have this Aſſurance, and do believe, that at the laſt Day, the Man Chriſt ſhall come in his Glory to Judge all People, according to his own Teſtimony; for he ſaith, When the Son of Man ſhall come in his Glory, and all the holy Angels with him, Then ſhall he ſet upon the Throne of his Glory, and before him ſhall be Gathered all Nations, and he ſhall Separate them one from another, as a Shepherd divideth his Sheep from the Goates, and he ſhall ſet the Sheep on his Right hand, but the Goates on the Left: Then ſhall the King ſay unto them on his Right Hand; Come ye Bleſſed of my Father, Inherit the Kingdom prepared for you from the Founda<g ref="char:EOLhyphen"/>tion of the World. And then ſhall he ſay alſo unto them on the Left Hand, Depart from me ye Curſed into Everlaſting Fire, prepared for the Devil and his Angels, <hi>Matth.</hi> 25. 31, 32, 33, 34, 41.</p>
+               <p>Qu. 12. <hi>Whether the Rule according to which the Judge will proceed in Judging of Perſons at that Day, will be the Light within, or the Goſpel of Chriſt?</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> This Query is unlearned, and unſcriptural; the Goſpel of Chriſt and his Light within, are inſeparable and not divided; According to which Goſpel and Light he will Judge the Secrets of Men, yea, the whole World in Righteouſneſs. The Goſpel of Chriſt thou ſeemeſt to be Ignorant of, who art Ignorant of the Light and Spirit, of which <hi>Paul</hi> ſaid he was made an able Miniſter, not of the Letter, but of the Spirit, which gives Life; And the Goſpel is the Power of God to Salvation, and Life and Immortality is brought to Light by the Goſpel, and we who have received it can Bleſ<g ref="char:punc">▪</g> the Lord for it. And Chriſt ſaith, <hi>This is the Condemnation of the World, that Light is come into the World, But Men Love Darkneſs rather then Light, becauſe their deeds are Evil.</hi>
+               </p>
+               <p>Qu. 13. <hi>Whether now in the times of the Goſpel, there ought not to be a Mini<g ref="char:EOLhyphen"/>niſtry? that is, whether ſome particular Perſons, ought not to be appointed and ſet apart ſolemnly for the Preaching of the Goſpel, and the Adminiſtration of
+<pb n="11" facs="tcp:47401:6"/>
+Baptiſme, and the Lord's Supper? And whether ſuch Miniſters ought not to have an Allowed Maintenance from the People?</hi>
+               </p>
+               <p>
+                  <hi>Anſ.</hi> Here are ſeveral Queſtions in cluded in this Query. To the firſt, Yea, there is, and Ought to be a Goſpel Miniſtry in this Goſpel-Day<g ref="char:punc">▪</g> 2. Such Miniſtry as is appointed and called by Chriſt. 3. To Preach the Goſpel. 4. Such a Miniſtry may be without having a Commiſſion to Baptize with Water any more then <hi>Paul</hi> had. 5. Not Commiſſionated to Adminiſter the Lords Supper in the Sign and Figure, but to turn People to Chriſt Jeſus, that he may Adminiſter it in the Subſtance, that is the Bread of Life, and Cup of Bleſſing at his Table in his Kingdom, which is the Subſtance. 6. Such Miniſters Preach the Goſpel freely, not for either ſet or forced Maintenance, and yet to have their neceſſities freely relieved (when in Want.) Miniſters of Chriſt we own, that Turn People from Darkneſs to Light, and from Satans Power to the Power of God, which is the Goſpel, and none can preach the Doctrine of Faith, Grace, Converſion and Spirit, truly, without the Light of Chriſt, which ſhineth in the Heart, and giveth the knowledge of them; and the true Miniſters and Goſpel they received, was not of man, nor by man, but by the Revelation of Jeſus Chriſt; They re<g ref="char:EOLhyphen"/>ceived it freely, and preach'd it freely: We do not read that they agreed with any People for a ſettle'd Maintenance, as is now practiced; and they were careful not to make the Goſpel chargeable to any, and wrought with their Hands many times to avoid it, a thing you were never brought up un<g ref="char:EOLhyphen"/>to; neither did they make a Merchandize of the Word, as many of you do of their Words. So you may ſee what Miniſters ſuch are, who are ſeek<g ref="char:EOLhyphen"/>ing their Gain from their Quarter.</p>
+               <p>Qu. 14. <hi>Whether it be lawful now in theſe Goſpel-times for Women to Speak or Preach in publick Aſſemblies, for the publick Inſtruction of others?</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> Yea, for Women divinely Inſpired, when called thereunto; and we do believe that it is as Lawful now for Women to Preach, as it was in former Ages: there were Propheteſſes both in the time of the Law and Prophets, and in the Apoſtles dayes; for there was <hi>Miriam</hi> the Propheteſs, the Siſter of <hi>Aaron, Exod.</hi> 15. 20. And there was <hi>Deborah,</hi> a Propheteſs, the Wife of <hi>Lapidoth,</hi> ſhe judged <hi>Iſrael, Judg.</hi> 4. 4. And the good King <hi>Joſiah</hi> ſent unto <hi>Huldah</hi> the Propheteſs, the Wife of <hi>Shalum,</hi> to inquire of the Lord for him and the People, 2, <hi>Kings</hi> 22. 13, 14. And there was the Pro<g ref="char:EOLhyphen"/>pheteſs <hi>Noadiah, Nehem.</hi> 6. 14. And the Lord ſpake by his Prophet <hi>Joel,</hi> and ſaid, <hi>I will pour out my Spirit upon all Fleſh, and your Sons and your Daugh<g ref="char:EOLhyphen"/>ters ſhall Propheſie,</hi> Joel 2. 28. (Mark) Sons and Daughters ſhall propheſie: And in Chriſt's Days there was one <hi>Ama</hi> a Propheteſs, <hi>Luk</hi> 2. 36. And the Woman of <hi>Samaria</hi> was a publick Preacher; for when ſhe had received ſome underſtanding of Chriſt, ſhe went her way into the Ci<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>y, and ſaith unto the Men, <hi>Come ſee a Man which told me all things that ever I did<g ref="char:punc">▪</g> is not this the Chriſt? Then they went out of the City, and came</hi> 
+                  <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> Iob <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>4. 28, 30.
+<pb n="12" facs="tcp:47401:7"/>
+Now obſerve, this Woman laboured to bring People unto Chriſt<g ref="char:punc">▪</g> and many believed her Teſtimony, and came unto him. And now we may ſay, that the Work of the Goſpel-Miniſters is to bring People unto Chriſt, And again, we may ſee that Jeſus Chriſt was pleaſed to make uſe of a Wo<g ref="char:EOLhyphen"/>man, <hi>Mary Magdalen,</hi> firſt to preach his Reſurrection; for he ſaid unto her, <hi>Go to my Brethren, and ſay unto them, I aſcend unto my Father and your Father, and to my God and your God. And</hi> Mary Magdalen <hi>went and told the Diſciples that ſhe had ſeen the Lord, and that he had ſpoken theſe things unto her,</hi> John 20. 17, 18. (Mark) Chriſt ſent this Woman to declare theſe things unto his Diſciples; and the Apoſtle <hi>Paul</hi> was ſo far from denying Womens Praying or Prophecying, that he ſignifies how they ought to Pray or Prophecy; for he ſaith, <hi>Every Woman that Prayeth or Propheſieth with her Head uncove<g ref="char:EOLhyphen"/>red, diſhonoureth her Head,</hi> 1 Cor. 11. 15. And <hi>Philip</hi> had four Daughters, Virgins, which did Propheſie, <hi>Acts</hi> 21. 8, 9. And the Apoſtle writing to the <hi>Phillipians,</hi> ſaith, <hi>I intreat thee alſo, true Yoke-fellow, help thoſe Women which la<g ref="char:EOLhyphen"/>boured with me in the Goſpel,</hi> Phil. 4. 3. (Mark) thoſe Women laboured with him in the Goſpel. But now if any ſhould ſay, that Prophecying is not Preaching, we ſhall anſwer thus, <hi>That the Teſtimony of Jeſus is the Spirit of Pro<g ref="char:EOLhyphen"/>pheſie,</hi> Rev. 19. 10.</p>
+               <p>Qu. 15. <hi>What Warrant the People called</hi> Quakers <hi>have in the Scriptures for their Silent Meetings?</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> The ſame they have for waiting on God until indued with Power from on High, and until required of him to Speak or Preach; and in the mean time to be ſilent at the preſence of God. Yet we limit not our Meet<g ref="char:EOLhyphen"/>ings before-hand to Silence, or Preaching, but ſubmit them to what God ſhall require. We do greatly admire the Ignorance of many People, profeſſing themſelves <hi>Chriſtians,</hi> and <hi>Miniſters</hi> of <hi>Chriſt;</hi> for the Prophecy of the Pro<g ref="char:EOLhyphen"/>phet it is on this wiſe, <hi>All thy Children ſhall be Taught of the Lord, and great ſhall be the Peace of thy Children,</hi> Iſa 54. 13. And again it is ſaid, <hi>I am the Lord thy God which teacheth thee to profit,</hi> Chap. 48. 17. And the Prophet farther ſaid, <hi>Yet ſhall not thy Teacher be removed into a Corner any more, but thine Eyes ſhall ſee thy Teacher, and thine Ears ſhall hear a Word behind thee, ſaying, This is the Way, walk ye in it, when ye turn to the Right Hand, and when ye turn to the Left,</hi> Chap. 30. 20, 21. And now we do deſire all People to con<g ref="char:EOLhyphen"/>ſider, how it is that the Lord doth teach his People himſelf, if not by his Spi<g ref="char:EOLhyphen"/>rit? And if by his Spirit, then where? And how muſt People be taught by him, if not in the ſecret of their own Hearts, and in the ſtillneſs and quiet<g ref="char:EOLhyphen"/>neſs of their Minds? for <hi>David</hi> ſaith, <hi>Wait on the Lord, be of good Courage, and he ſhall ſtrengthen thine Heart,</hi> Pſal. 27. 14. And again he ſaith, <hi>Reſt in the Lord, and wait patiently for him,</hi> Chap. 37. 7. And the Wiſe man ſaith, <hi>Wait on the Lord, and he ſhall ſave thee,</hi> Prov. 20. 22. And <hi>Iſaiah</hi> ſaith, <hi>That they that wait upon the Lord, ſhall renew their ſtrength: they ſhall mount up with Wings as Eagles, they ſhall run and not be weary, and they ſhall walk and not faint,</hi>
+                  <pb n="13" facs="tcp:47401:7"/>
+Iſa. 40. 31. And many other places might be Inſtanced. And now how muſt People wait upon the Lord, if not in Silence? for <hi>Solomon</hi> ſaith, <hi>That there is a Time to keep Silent, and a Time to Speak,</hi> Eccleſ. 3. 7. Now it were well if all did know this time to keep ſilent, and ſo wait upon the Lord in Silence, for the Lord ſpeaking by the Prophet <hi>Iſaiah,</hi> ſaith, <hi>Keep Silence before me, O Iſlands, and let the People Renew their Strength,</hi> Iſa: 41. 1. And again it is written, <hi>The Lord is in his holy Temple, let all the Earth keep Silence before him,</hi> Hab. 2. 20. And it is farther written, <hi>Be Silent, O all Fleſh, be fore the Lord; for he is raiſed up out of his Holy Habitation,</hi> Zach. 2. 13. So now all Fleſh ought to keep Silent before the Lord, and wait upon him for the Teaching of his holy Spirit in their own Hearts, that ſo they may come to know God, and his Mind and Will; for we live in the New Covenant Diſpenſation ſpoken of in <hi>Jer.</hi> 31. 31, 32, 33, 34. <hi>Heb.</hi> 8. 8, 9, 10, 11. where the Lord ſaith, <hi>They ſhall teach no more every man his Neighbour<g ref="char:punc">▪</g> and every man his Brother, ſaying, Know the Lord; for they ſhall all know me from the leaſt of them unto the greateſt of them, ſaith the Lord.</hi> And now we ſay, it is good for all to be inwardly gathered, and wait in Silence for the Teachings of the Lord, for there his Appearance is, according to the Apoſtle's Teſti<g ref="char:EOLhyphen"/>mony; for he ſaith, <hi>That which may be known of God, is manifeſt within,</hi> Rom. 1. 19. And the ſame Apoſtle ſaith, <hi>That the Grace of God that bringeth Salva<g ref="char:EOLhyphen"/>tion, hath appeared to all men, teaching us that denying <g ref="char:V">Ʋ</g>ngodlineſs and Worldly Luſt, we ſhould live Soberly, Righteouſly, and Godly in this preſent World,</hi> Tit. 2. 11, 12. (Mark) the Grace of God was the Apoſtle's Teacher: And now foraſ<g ref="char:EOLhyphen"/>much as that Grace that bringeth Salvation, hath appeared to all men, we would have all to mind the Teachings of it. And the Apoſtle <hi>John</hi> ſaith, <hi>The Anointing which ye have received of him, abideth in you, and ye need not that any man teach you, but as the ſame Anointing teacheth you of all things, and is Truth, and is no Lye,</hi> 1 John 2. 27. (Mark) <hi>John</hi> ſaith that the Anointing abideth in you, and ye need not that any man teach you. Well then, as People meet together in true Silence, in the ſtillneſs and quietneſs of there Minds to wait upon the Lord, although there may be no Words ſpoken as outwardly, yet there is a ſufficient Teacher near unto them, to teach them the Way of the Lord, that ſo they may find Peace and Acceptance with him; Glory be to God for evermore; Amen.</p>
+               <p>Qu. 16. <hi>Whether it be lawful now in theſe Gospel times, for the Civil Magiſtrates to puniſh Offenders by the Sword?</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> We do believe that it is lawful in theſe Goſpel times, for the Civil Magiſtrate to puniſh Evil-doers whith the Sword of Juſtice; for the Law was added becauſe of Tranſgreſſions<g ref="char:punc">▪</g> and this is according to the Apoſtle's Teſtimony, for he ſaith, <hi>If thou do that which is Evil, be affraid, for he beareth not the Sword in vain,</hi> Rom. 13. 4. And we do believe, that while Wicked<g ref="char:EOLhyphen"/>neſs doth remain, that there will be need of the Civil Magiſtrate and Outward Law for to keep People from abuſing of one another.</p>
+               <pb n="14" facs="tcp:47401:8"/>
+               <p>Qu. 17. <hi>Whether the waging of Wars may, on any Account, be Lawful?</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> Yea, on a Spiritual Account: Not otherwiſe, unleſs as a fore Judg<g ref="char:EOLhyphen"/>ment from God. <hi>Antiquery,</hi> 1. Is it lawful for Chriſt's Miniſters to Preach up Wars, Fighting and Bloodſhed now in the Goſpel day? 2. Is it ſuita<g ref="char:EOLhyphen"/>ble for Chriſt's Lambs and Miniſters, whoſe Weapons are not Carnal, but Spiritual? 3. Is it agreeable to Chriſt's Miniſtry, Kingdom and Coming, which was not to deſtroy, but ſave mens Lives? 4. Does not Chriſt's com<g ref="char:EOLhyphen"/>ing and Kingdom put an End to Wars? The Apoſtle <hi>James</hi> tells us, Wars and Contentions ariſe from mens Luſts. <hi>Paul</hi> ſaying, <hi>The Weapons of our War<g ref="char:EOLhyphen"/>fare are not not Carnal, but Spiritual, and mighty through God to the pulling down the ſtrong Holds of Sin,</hi> 2 Cor. 10. 4. <hi>bringing down every high Thought and Ima<g ref="char:EOLhyphen"/>gination that is exalted againſt the knowledge of God.</hi>
+               </p>
+               <p>Qu. 18. <hi>Whether daily Family-Prayer be not a Duty?</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> We are exhorted to Pray always, with all manner of Prayer and Supplication in the Spirit: And it is alſo ſaid, <hi>I will therefore that men Pray every where, lifting up Holy Hands without wrath and doubting,</hi> 1 Tim. 2. 8. But the long Prayers of the <hi>Phariſees</hi> were not accepted of the Lord, whoſe Hands and Hearts were not Holy; but they were Envious againſt Chriſt, and doubting whether he was the Chriſt or not, as thou ſeemeſt to be at this day, what the Light is which comes from him, with which every man is lightned that comes into the World; but Praying with the <hi>Spirit</hi> and with <hi>
+                     <g ref="char:V">Ʋ</g>nderſtanding</hi> we own, 1 <hi>Cor.</hi> 13. 15. <hi>Jude</hi> verſ. 20. <hi>But ye beloved, edifie your ſelves in your moſt holy Faith, Praying in the Holy Ghoſt, this is acceptable to the Lord,</hi> Jam. 5. 16. <hi>The Prayer of the Righteous Man availeth much, if it be fer<g ref="char:EOLhyphen"/>vent.</hi> And as it is Men and Womens duty to love and ſerve the Lord their God, ſo it is their Duties alſo, if they have any Children, to watch over them for their good, and to be good Examples of Piety unto them, and to keep them out of the Vain Cuſtoms and Faſhions, Words and Actions, Pride and Fooliſh Talking that is in the World. And indeed the Wiſe man's Counſel ought to be taken here, for he ſaith, <hi>Train up a Child in the Way he ſhould go, and when he is old he will not depart from it,</hi> Prov. 22. 26. And they that have Servants, ought to watch over them for Good, and to Adviſe them to that which is Good. And thus is the true daily Family-Duty performed.</p>
+               <p>Qu. 19. <hi>Whether Water-Baptiſm ought not to be Practiſed, and Adminiſtred new as well as of Old?</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> No; becauſe their appears not the ſame or the like Call from Heaven for it, as <hi>John</hi> had. <hi>Antiquery,</hi> 1. Whom does the Querieſt in<g ref="char:EOLhyphen"/>tend as the ſubjects of Water-Baptiſm in <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nfants or Believers? 2. if Infants, by what Scripture? If Believers, how proves he his Commiſſion from Hea<g ref="char:EOLhyphen"/>ven? Produce us one Scripture which warrants your Practice to be as of Old, that is the ſprinking Water on a Child's Face, and calling it an Ordi<g ref="char:EOLhyphen"/>nance
+<pb n="15" facs="tcp:47401:8"/>
+of Chriſt, and that by which the Child is Regenerated and Born again: Prove this to us by Scripture. If <hi>Joſeph Hallett</hi> intends by his Baptiſm the Sprinkling of Infants, as I believe he doth, becauſe he is ſuch a one as uſeth it; Then we ſay, that they that practice it, hath neither Command nor Exam<g ref="char:EOLhyphen"/>ple for it, from Chriſt nor his Apoſtles; for there is not one Text of Scrip<g ref="char:EOLhyphen"/>ture to prove that Chriſt Commanded it, or that his Apoſtles practiſed it; and therefore it is but an old <hi>Popiſh</hi> Ceremony. But as for <hi>John</hi>'s Baptiſm, it was unto Repentance, and he baptized ſuch as were capable of Repenting, and of confeſſing their Sins; for he begins his Dnctrine on this wiſe, <hi>Repent ye, for the Kingdom of Heaven is at hand.</hi> And it is ſaid, <hi>Then went out to him</hi> Jeruſalem, <hi>and all</hi> Judea, <hi>and all the Region-round about</hi> Jordan, <hi>and were bap<g ref="char:EOLhyphen"/>tized of him in</hi> Jordan, <hi>confeſſing their Sins; But when he ſaw many of the</hi> Pha<g ref="char:EOLhyphen"/>riſees <hi>and</hi> Saduces <hi>come to his Baptiſm, he calls them Generation of Vipers; and he bids them bring forth Fruits meet for Repentance.</hi> And he further ſaith, <hi>I indeed baptize you with Water unto Repentance, but he that cometh after me, is mightier than I, whoſe Shoes I am not worthy to bear, he ſhall Baptize you with the Holy Ghoſt and with Fire, whoſe Fan is in his Hand, and he will throughly purge his Floor, and gather his Wheat into the Garner; but he will burn up the Chaff with unquenchable Fire. Then cometh Jeſus unto</hi> John <hi>to be baptized of him, but</hi> John <hi>forbid him, ſaying, I have need to be baptized of thee,</hi> Matth. 3. 2, 5, 6, 7, 8, 11, 12, 13, 14. (Mark) <hi>John</hi> ſaid unto Chriſt, <hi>I have need to be Baptized of thee.</hi> And now this is certain, that every Man and Woman have need to be Baptized of Chriſt, and with his Baptiſm, which is with the holy Ghoſt and with Fire; for he throughly purgeth his Floor, he throughly purges the Souls of Men and Women from Sin, fits them for God's Kingdom: And this is the one Baptiſm which the Apoſtle <hi>Paul</hi> ſpake of, <hi>Epheſ.</hi> 4. 5. the which is neceſſary unto Salvation; and without this Baptiſm people can<g ref="char:EOLhyphen"/>not be ſaved, nor yet enter God's Kingdom; for there is nothing that's un<g ref="char:EOLhyphen"/>clean ſhall enter Gods Kingdom; for it is written, <hi>That he that believeth and is baptized, ſhall be ſaved,</hi> Mark 16. 16. And this is the Baptiſm that the Apoſtle <hi>Peter</hi> ſpake of, when he ſaid, <hi>Baptiſm doth now ſave us, not the put<g ref="char:EOLhyphen"/>ting away of the Filth of the Fleſh, but the Anſwer of a Good Conſcience towards God,</hi> 1 <hi>Pet.</hi> 3. 21. Now as there is but One Lord unto us, nor yet but one Faith that is ſaving; ſo there is but one Baptiſm that is neceſſary unto Sal<g ref="char:EOLhyphen"/>vation; for <hi>John</hi> he was a fore-runner of Chriſt, and he bore Teſtimony of him, that ſo people might believe in him, to wit Chriſt: for <hi>John</hi> ſaid, <hi>I am the Voice of one crying in the Wilderneſs, make ſtraight the Way of the Lord,</hi> John 1. 23. And <hi>John</hi> ſpeaking of Jeſus Chriſt, further ſaid, <hi>He muſt in<g ref="char:EOLhyphen"/>creaſe, but I muſt decreaſe,</hi> Chap. 3. 30. And Chriſt ſpeaking unto his Diſ<g ref="char:EOLhyphen"/>ciples, ſaid, <hi>John truly baptized with Water, but ye ſhall be Baptized with the Holy Ghoſt not many days hence,</hi> Acts 1. 5. And we do believe that this Bap<g ref="char:EOLhyphen"/>tiſm is alone needful unto Salvation, to wit, the Baptiſm of the Holy Ghoſt,
+<pb n="16" facs="tcp:47401:9"/>
+ſeeing the Baptiſm is but one that is neceſſary, as is proved before: And this is the Baptiſm that the Apoſtle <hi>Paul</hi> ſpake of, when he ſaid, <hi>By one Spirit are we all Baptized in to one Body, 1 Cor.</hi> 12. 13. (Mark) Chriſt ſaid, Ye ſhall be Bap<g ref="char:EOLhyphen"/>tized with the Holy Ghoſt. And the Apoſtle <hi>Paul</hi> ſaid, By one Spirit are we all Baptized. Now this was no Water-Baptiſm, for it was done by the Spirit of God, and not with Water by Man. And the Apoſtle further ſaid, <hi>As many of you as have been Baptized unto Chriſt, have put on Chriſt,</hi> Gal. 3. 27. Now they that have put on Chriſt, are in Chriſt; <hi>And if any Man be in Chriſt, he is a new Creature,</hi> 2 Cor. 5. 17. And now that which we do deſire of People every where, is that they will turn in their minds unto the gift of Gods Spirit in their own Hearts, and wait to be made a new by it.</p>
+               <p>Qu. 20. <hi>Whether the Lord's Supper, as to its Adminiſtration and Participa<g ref="char:EOLhyphen"/>tion, be not a Duty ſtill incumbent upon</hi> Chriſtians <hi>in theſe Days? that is, whether Perſons ought not to take Real Bread and eat it, and Real Wine and drink it, in Remembrance of the Death of Chriſt Jeſus?</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> Not incumbent in the Type or Figure, but in the Subſtance or Antitype. <hi>Antiquery,</hi> 1. Where proves the Querieſt that the Lord's Sup<g ref="char:EOLhyphen"/>per in this Goſpel-day, conſiſts of eating outward Bread, or drinking out<g ref="char:EOLhyphen"/>ward Wine? 2. What was really the Lords Supper in the Figure, and what in the Subſtance or Myſtery? 3. Were not the outward Bread and Cup typical or figurative of the Spiritual Meat and Drink? 4. What Com<g ref="char:EOLhyphen"/>memoration of him or his Death by outward Sign is comparable to his own inward Spiritual coming and appearance? See the firſt Epiſtle of <hi>John,</hi> Chap<g ref="char:punc">▪</g> 5. 20 <hi>But we know that the Son of God is come, and hath given us an <g ref="char:V">Ʋ</g>nder<g ref="char:EOLhyphen"/>ſtanding to know him that is true; and we are in him that is true: This is the true God and Eternal Life, and we are Witneſſes of his Second coming without Sin unto Salvation; and we eat his Fleſh and drink his Blood, by which we have Life.</hi> John 6. 56, 57 <hi>As the living Father hath ſent me, and I live by the Father, ſo he that eateth me, ſhall live by me.</hi> But the <hi>Jews</hi> it is ſaid ſtrove among them<g ref="char:EOLhyphen"/>ſelves, ſaying, <hi>How can this man give us his Fleſh to eat?</hi> The Apoſtle <hi>Paul</hi> tells us, <hi>There were them that did eat and drink unworthily, not diſcerning the Lord's Body;</hi> and what that Body was ſome did eat? Muſt not the Lord's Body be diſcerned by true Believers? <hi>Rev.</hi> 3. 20. Chriſt ſaith, <hi>Behold I stand at the Door and knock, if any one hear my Voice, and open the Door, I will come in to him and Sup with him, and he with me:</hi> And this Supper is not outward. And the Lord ſaid by his Prophet, He would make unto all People in his holy Mountain a Feaſt of fat things. And the Apoſtle <hi>Paul</hi> ſaith in <hi>Cor.</hi> 10. 14, 15, 16, 17. <hi>Wherefore my dearly Beloved, flee from Idolatry, I ſpeak as to Wiſe men, judge ye what I ſay; The Cup of Bleſſing which we bleſs, is it not the Com<g ref="char:EOLhyphen"/>munion of the Blood of Chriſt? The Bread which we break is it not the Communion of the Body of Chriſt? For we being many, are one Bread and one Body: For we are partakers of that one Bread; and the Bread<g ref="char:punc">▪</g> of God is he that comes down from
+<pb n="17" facs="tcp:47401:9"/>
+Heaven, and gives Life to the World.</hi> This was the Saints Food in all Ages But of this Spiritual Food and Communion th<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>u art ignorant, who art igno<g ref="char:EOLhyphen"/>rant of the Light, in which the Saints fellowſhip was and is; and ſuch as walk in it, have and do know the Blood of Chriſt cleanſing them from all Sin; ſo that the Subſtance being witneſſed, to ſuch here is no need of outward Signs to put them in Remembrance; and this the Apoſtle <hi>Paul</hi> laboured to know, the Power of his Death and the Vertue of his Reſurrection.</p>
+               <p>Qu. 21. <hi>Whether any of the Sons or Daughters of</hi> Adam <hi>are able to attain to a Sinleſs Perfection in this Life?</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> Yea, by the Power of Chriſt, and not of themſelves: <hi>The Work of the Miniſtry is for the perfecting of the Saints,</hi> Epheſ. 4. 11, 12, 13. And although we ſay, as the Scriptures teſtifie, It is attainable; yet not without great Diligence and Watchfulneſs to the Power of God. And the Apoſtle <hi>Peter, 1 Pet.</hi> 1. 3, 4<g ref="char:punc">▪</g> writing to the Saints, ſaith, <hi>Bleſſed be God, the Father of our Lord Jeſus Chriſt, which according to his abundant Mercy, hath begotten us again unto a lively hope by the Reſurrection of Jeſus Chriſt from the Dead, to an Inheritance incorruptible and undefiled, and that fadeth not away, reſerved in Heaven for you who are kept by the Power of God through Faith unto Salvation, which is prepared to be ſhewed in the laſt Times.</hi> The Power of God is greater to keep out of Sin, then the power of Satan to lead into Sin: So ſaid Chriſt, <hi>Greater is he that is in you, then he that is in the World.</hi> But this Perfection ſpoken of, admits of degrees and a growth; as a Child when born, if com<g ref="char:EOLhyphen"/>pleat in all its Parts and Members, is ſaid to be a perfect Child; ſo it is in the new Birth, he that is born of the Spirit, and lives up to the Manifeſtations of it, may be ſaid to be perfect in kind; and yet there may be a growth ſtill. <hi>John</hi> writes to Little Children, whoſe Sins were forgiven them for his Names ſake; as alſo he writes to Young Men, becauſe they had overcome the Wicked One; and to Fathers, becauſe they had know him that was from the beginning. And the Apoſtle preacht Wiſdom among them that are perfect: but not the Wiſdom of this World which denyeth it: But God, Chriſt and the Apoſtles exhort unto it. <hi>Job</hi> was ſaid to be a perfect man: And <hi>Paul</hi> was crucified to the World, and the World to him, and Chriſt lived in him; <hi>And the Life,</hi> ſaith he, <hi>I now live, is by the Faith of the Son of God, who loved me and gave himſelf for me:</hi> And he had faught a good Fight, finiſhed his Courſe, and kept the Faith; <hi>Henceforth there is laid up for me,</hi> ſaid he, <hi>a Crown of Righteouſneſs.</hi>
+               </p>
+               <p>Qu. 22. <hi>Whether the</hi> Quakers <hi>expect to be ſaved with a Chriſt within them, or a Chriſt without them?</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> This is an Unlearned and Unſcriptural Queſtion. They profeſs not two Chriſts, but the one very Chriſt of God within them and without them, according to holy Scriptures. That Chriſt we expect Salvation by, is both within and without, as hath been ſufficiently expreſſed, how he ſuffered for Sin, the Juſt for the Unjuſt, and he died and roſe again<g ref="char:punc">▪</g> that he might be
+<pb n="18" facs="tcp:47401:10"/>
+Lord of quick and dead, and that thoſe that live, might not live unto them<g ref="char:EOLhyphen"/>ſelve, but unto him that died for them, and roſe again for their Juſtification. And it is Chriſt that died, or rather that is riſen again, and becauſe he lives we live alſo; And God hath choſen us to Salvation through Sanctification of the Spirit and belief of the Truth, 2 <hi>Theſ.</hi> 2. 13. And is not this Work to be known within of the Spirit and Faith of Chriſt; read <hi>Rom.</hi> 10 6, 7, 8, 9, 10. But thou doſt not ſeem to love to hear of Chriſt and his Light within, which <hi>Paul</hi> preached, and ſaid, <hi>Know you not that Chriſt is in you, except you be Repro<g ref="char:EOLhyphen"/>bates: This was the Myſtery hid from Ages and Generations, Chriſt within the Hope of Glory.</hi>
+               </p>
+               <p>Qu. 23. <hi>Whether the way of ſerving of God that the</hi> Quakers <hi>uſe, be the Way to Heaven? And if it be the Way, whether it be the only Way?</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> The Way we profeſs and own is the Way to Heaven, which is Chriſt, the Way, the Truth and the Life, in whom our acceptance is; Nei<g ref="char:EOLhyphen"/>ther is there Salvation by any other Name; And the Worſhip which he ſet up, we practiſe, which is in Spirit and Truth; and that this is the right Way and the true Worſhip, yea, the only way to Heaven, we have great aſſu<g ref="char:EOLhyphen"/>rance, the Lord manifeſting his preſence in the midſt of us, which is his Seal of approbation; and we have known, and do know an Overcoming and Vi<g ref="char:EOLhyphen"/>ctory over the World by our Faith, which ſtands in the Power of God, which <hi>Paul</hi> exhorted the Believers unto, that their Faith might not ſtand in the Wiſdom of Words, but in the Power of God; and God is the Author and Finiſher of our Faith, and the Day of God's Power is known, which hath made us a willing People; and for the Word of our Teſtimony we have not, neither do we love our Lives to the Death; but far be it from us to limit the Holy One, for in every Nation he that fears God and works Righteouſneſs is accepted of him. But can a man be ſaid truly to fear God and work Righteouſneſs without having regard to this inward Law, by which the <hi>Gentiles</hi> are ſaid to have attained to the Righteouſneſs which is of Faith; and they doing the things contained in the Law, ſhewed the Effect of the Law written in their Hearts, their Conſciences alſo bearing Witneſs, and their Thoughts the mean while accuſing, or elſe excuſing one another? <hi>At the Day,</hi> ſaith <hi>Paul, when God ſhall Judg the Secrets of men by Jeſus Chriſt according to the Goſpel,</hi> Rom. 2. 15, 16. This was the Goſpel (that great Apoſtle to the <hi>Gentiles</hi> preached) the Law in the Heart, the New Co<g ref="char:EOLhyphen"/>venant, <hi>Jer. 31. 32. Heb. 8. 9, 10. This is the Covenant I will make with the Houſe of</hi> Iſrael <hi>after thoſe days, I will put my Laws into their Minds, and in their Hearts will I write them, and I will be to them a God, and they ſhall be to me a People; and they ſhall not teach every man his Neighbour, and every man his Brother, ſaying, Know the Lord, for all ſhall know me from the leaſt to the greateſt.</hi> So that we believe as the Scripture teſtifies, God hath been al<g ref="char:EOLhyphen"/>ways good to ſuch as are of an Upright Heart, though under various Pro<g ref="char:EOLhyphen"/>feſſions and Miniſtrations and of this ſome have had experience before the Way
+<pb n="19" facs="tcp:47401:10"/>
+of Truth was clearly made known to us, as hath been ſince made manifeſt through the refreſhment from the preſence of the Father. And our deſire is for thee, and for all Men, that you would receive him (that is) Chriſt in his Light with which he hath lightned you and all men, and thereby you will re<g ref="char:EOLhyphen"/>ceive Power to become the Sons of God: And take heed of grieving the good Spirit of God, as the Apoſtle Exhorts, <hi>Grieve not the Holy Spirit of God whereby you are ſealed unto the Day of Redemption.</hi> And this I ſay farther take heed of Oppoſing this Work, for it is of God, and ſhall ſtand; <hi>Goa's Foundation ſtands ſure, 1 Peter,</hi> 2. 6. Wherefore it is contained in the Scripture, <hi>Behold I lay in</hi> Sion <hi>a Chief Corner-Stone, Elect, Preci<g ref="char:EOLhyphen"/>ous, and he that believeth on him, ſhall not be confounded; unto you there<g ref="char:EOLhyphen"/>fore that believe, he is pretious, but unto them which are diſobedient, the Stone which the Builders Diſallowed, the ſame is made the Head of the Corner, and a Stone of Stumbling, and a Rock of Offence even to them that Stumble at the Word, being diſobedient.</hi> (Mark) ſuch as Stumble at the Word, he is a Stone of Stumbling unto them; And <hi>the Word is near in the Mouth and in the Heart; This is the Word of Faith which we Preach,</hi> Rom. 10. 8.</p>
+            </div>
+            <div type="part">
+               <head>Having Anſwered thy Three and Twenty Queſtions by Scripture-proofs, we proceed to Anſwer the other four, put forth by Thee.</head>
+               <p>Qu. 1. <hi>Whether, when a Man at any time Speaks to a ſingle Perſon, it be un<g ref="char:EOLhyphen"/>lawful for him to uſe the Word You?</hi>
+               </p>
+               <p>
+                  <hi>Anſ.</hi> It ſeems, thou art offended at the Word Thee and Thou, but was it not the Language of Chriſt, and the Holy Men of God, both to Supe<g ref="char:EOLhyphen"/>riour and Inferiour, as is ſufficiently Manifeſted in the Scripture? And it ſeems ſtrange that thou, or any Man Learned in the Tongues, ſhould put forth ſuch a Queſtion, knowing there is to be an Agreement in the number, both in <hi>Hebrew, Greek</hi> and <hi>Latin,</hi> as our Tranſlation makes apparent; and why are Children taught Singular, and Plural Number, by the <hi>Grammer</hi> Rules; but that it is abſolutely neceſſary in the <hi>Latin</hi> Tongue, as well as in other Tongues, and without it thou knoweſt cannot be true; ſo the Word You to one is improper; it is as proper for a Man to uſe the Word Thee unto a Thouſand Men, as it is for him to uſe the Word You unto One; for Thou is in the Singular Number; but You is in the Plural; So that, for to uſe the Word You unto One, it is nonſence; For One is but one, and the Word You ſignifies to more then one; and it is alſo contrary unto the Holy Scriptures of Truth to uſe the Word You unto one, and therefore it is unlawful; for Chriſt ſaid Thou unto <hi>Peter,</hi> and <hi>Peter</hi> ſaid Thou unto Chriſt ſeveral times, in the 21. Chap. of <hi>John;</hi> and its the common Language throughout all the Scriptures of Truth, to uſe the Word Thee or Thou unto one; and we deſire all People to take notice of it; for the Lord uſed to Speak the Word Thee or Thou, when he Spake unto any particular of his People; and his People uſed to ſpeak Thee or Thou unto the Lord, and one unto another. And People do uſe the Word Thee and Thou unto the
+<pb facs="tcp:47401:11"/>
+Lord in their Prayers; and we do greatly admire that People ſhould count that Language, which they give unto the Lord, is not good enough for themſelves: For ſome have been very angry with us, when we have uſed the ſimple proper Language, as the Word Thee or Thou unto one. O bluſh! and be ye aſhamed and bow before the Lord, all ye proud ones that think ſcorn to receive that Language unto your ſelves, that you give unto the Lord God, that Created you for a purpoſe of his own Glory, that you ſhould reverance his great Name, and dread before him. And indeed, we do Account it a great point of Ignorance in <hi>Joſeph Hallett,</hi> or any other Man to Queſtion ſuch a thing; and we may to ſuch, as Chriſt Jeſus our Lord, ſaid unto ſome in former Ages, <hi>Ye do Err, not knowing the Scriptures, nor the Power of God,</hi> Matth. 22. 29.</p>
+               <p>Qu. 2. <hi>Whether a Perſon, putting off his Hatt to a Friend he meets in the Streets, be a thing forbidden by the Scriptures of Truth?</hi>
+               </p>
+               <p>
+                  <hi>Anſ.</hi> Vain cuſtoms are forbiden and Reſpect of Perſons, <hi>James 2. 1. My Brethren,</hi> ſaith he, <hi>Have not the Faith of our Lord Jeſus Chriſt, the Lord of Glory with reſpect of Perſons.</hi> And is not this reſpect of Perſons, uſed and practiſed among you at this Day which the Apoſtle <hi>James</hi> forbids, ſaying in the <hi>9th</hi> Verſe of the chap. <hi>He that reſpects Perſons, commits Sin, and is rebuked of the Law, as a Tranſgreſſor; for whoſoever ſhall keep the whole Law, and faileth in one point, is Guilty of all.</hi> It ſeems, thou wouldſt have the honour and Reſpect kept up, <hi>Phariſee</hi> like, which Chriſt forbad, and cryed, Wo againſt. And Chriſt ſaid, <hi>How can you believe that ſeek Honour one of another, and ſeek not the Honour that comes from God only?</hi>
+               </p>
+               <p>Qu. 3. <hi>Whether it be a thing Unlawful for any Man, for the Confirmation of a matter of fact, to Swear before the Civil Magiſtrate?</hi>
+               </p>
+               <p>
+                  <hi>Anſ.</hi> Chriſt's Law and Doctrine does not Warrant, but prohibits it, <hi>Matt. 5. 34. James</hi> 1. 5. 12. We do believe that it is altogether Unlawful, and a breach of the Command of Chriſt, for ſuch are true Chriſtians, followers of Chriſt, and obeyers of him, to Swear at all, either for the confirmation of a matter of fact, or other ways. For Chriſt Jeſus ſaid unto his Followers, <hi>Ye have heard that it hath been ſaid by them of Old Time, Thou ſhall not Forſwear they ſelf, but ſhall perform unto the Lord thine Oaths; but I ſay un<g ref="char:EOLhyphen"/>you, Swear not at all;</hi> (Mark) Swear not at all, <hi>neither by Heaven, for it is God's Throne, nor by the Earth, for it is his Foot-Stool, neither by</hi> Jeruſalem <hi>for it is the City of the Great King; neither ſhalt thou Swear by thine Head, be<g ref="char:EOLhyphen"/>cauſe thou cauſt not make one hair White or Black.</hi> And he farther ſaid; <hi>But let your Communication be Yea, Yea; Nay, Nay, for whatſoever is more then theſe, cometh of evil,</hi> Matt. 5. 33, 34, 35, 36, 37. (Mark) Jeſus Chriſt our Lord and Saviour ſaith, Swear not at all. Now here Chriſt forbids all Swearing, for Swear not at all, is a full prohibition. And <hi>James,</hi> a ſervant of God, and of the Lord Jeſus Chriſt, ſaid, <hi>Above all things my Brethren, Swear not, Neither by Heaven, neither by the Earth, neither by any other Oath: But let
+<pb n="21" facs="tcp:47401:11"/>
+your Yea, be Yea; and your Nay, Nay, leaſt you fall into condemnation,</hi> Chap. 5. 12. And now we deſire all People every were, where theſe Lines may come, to take the Advice of Jeſus Chriſt, and of <hi>James</hi> his ſervant, and Swear not at all.</p>
+               <p>Qu. 4. <hi>Whether it be Lawful for a Man to Endeavour to furniſh himſelf with Humane Learning?</hi>
+               </p>
+               <p>
+                  <hi>Anſ.</hi> Yea, ſo as he uſe Humane Learning in it's place. 'Tis Lawful to Acquire Humane Learning, but not to Idolize or uſe it Unlawfully; But if <hi>Joſeph Hallett</hi> Intends for a Man to furniſh himſelf with Humane Learning in order to make him a Miniſter of Chriſt; then we Anſwer thus; Learning is good in its place, but not to be the motive cauſe of making Men Miniſters, for that is the Lord's Work, and he maketh Miniſters of whom it pleaſeth him, whether Poor or Rich, Learned or Unlearned; for what Learning had <hi>Jeremiah?</hi> for he ſaid, <hi>Ah! Lord God, behold I cannot ſpeak, for I am a Child:</hi> But the Lord ſaid unto him, <hi>Say not I am Child, for thou ſhallt go to all that I ſhall ſend Thee; and whatſoever I command Thee, Thou ſhalt ſpeak.</hi> And he farther ſaid, <hi>Be not afraid of their Faces, for I am with Thee, to deliver Thee,</hi> ſaith the Lord. And <hi>Jeremiah</hi> ſaith, <hi>Then the Lord put forth his Hand, and touched my Mouth, And the Lord ſaid unto me, Behold I have put my Words in thy Mouth,</hi> Chap. 1. 6, 7, 8, 9. Now here we may ſee that the Lord was both the Sender and Teacher of <hi>Jeremiah.</hi> And what Learning had <hi>Amos,</hi> and how was he ſent? for he ſaid, <hi>I was no Prophet, neither was I a Prophets Son, but I was an Herds-Man, and a Gatherer of Secomore-Fruit.</hi> And he farther ſaid, <hi>The Lord took me, as I followed the Flock:</hi> (Mark) and not from Schools of Learning, <hi>but as I followed the Flock.</hi> And he alſo ſaid, <hi>the Lord ſaid unto me, Go, Propheſie unto my People of Iſrael, Chap.</hi> 7. 14, 15. And what Learning had them that Chriſt called unto the Work of the Miniſtry, <hi>Peter, Andrew, James</hi> and <hi>John,</hi> Fiſher-Men? <hi>Matth.</hi> 4. 18. 21. And we may ſee, that the Phariſees reflected upon Chriſt, becauſe he was pleaſed to make uſe of mean Inſtruments; For they ſaid, <hi>Have any of the Rulers, or of the Phariſees Believed on him; But this People who know not the Law, are Curſed?</hi> John 7. 48, 49. And it is Written in Acts 4. 13. <hi>That when they ſaw the boldneſs of</hi> Peter <hi>and</hi> John, <hi>and perceived that they were <g ref="char:V">Ʋ</g>nlearn<g ref="char:EOLhyphen"/>ed and Ignorant Men, they marvelled, and they took knowledge of them, that they had been with Jeſus.</hi> Now here we may ſee, that although <hi>Peter</hi> and <hi>John</hi> were Ignorant and Unlearned Men, (as to Humane Learning) Yet they were bold and Valiant for the Truth. And this is according to the promiſe of Chriſt; For he ſaid, <hi>I will give you a Mouth and Wiſdom, which all your Adverſaries ſhall not be able to gain-ſay, nor reſiſt,</hi> Luke 21. 15. And the Apoſtle <hi>Paul</hi> ſaid unto the <hi>Corinthians, And I Brethren, when I came to you, came not with Excellency of Speech or of Wiſdom, declaring unto you the Teſtimony of God.</hi> And farther he ſaid, <hi>I was with you in Weakneſs and in Fear, and in much Trembling, and my Speech and my Preaching was not with Enticing Words of Mens wiſdom, but in demonſtration of the
+<pb facs="tcp:47401:12"/>
+Spirit and of Power, that your Faith ſhould not ſtand in the Wiſdom of Men, but in the Power of God, 1 Cor.</hi> 2. 1, 3, 4, 5. And in the foregoing Chap. the Apoſtle Speaks much of ſuch things, of which we ſhall Inſert one, Verſe 21. where he ſaith, <hi>The World by Wiſdom knew not God; in the Wiſdom of God it pleaſed God by the Fooliſhneſs of Preaching to ſave them that believe.</hi> The Apoſtles did not boaſt of other Mens Labours or of other Mens Lines, of things made ready to their Hands, but they Laboured in the Spirit and Power of God, and their Glorying was in him, 2 <hi>Cor.</hi> 10 15, 16, 17. And now we do deſire all to ſeek after that Wiſdom, which is from above, that the Lord by his Spirit is the Teacher of, which is firſt Pure, then Peaceable, Gentle, and Eaſie to be In<g ref="char:EOLhyphen"/>treated, full of Mercy and good Fruits, without Partiality, and without Hy<g ref="char:EOLhyphen"/>pocriſie, <hi>James</hi> 3. 17.</p>
+               <p>And now whereas thou doſt Intreat thoſe that ſhall Anſwer theſe or the former Queſtions, to prove their Opinions, as they deliver them; ſo Ac<g ref="char:EOLhyphen"/>cordingly it is done. And by theſe foregoing Anſwers, thou mayſt know, what Ground and Foundation we have for what we hold. If thou canſt but ſee with the Spiritual Eye, that God is the opener of. And whereas thou ſayeſt, The great God by his Holy Spirit, lead you into all Truth, and de<g ref="char:EOLhyphen"/>liver you from all Error. We ſay, this is that which our Souls deſire; and we ſhould be glad if thou waſt but as mindful of the Leadings of God's Spirit in thy own Heart, as thou haſt been in putting of us in Remembrance of it, for then thou wouldeſt not be ſuch a great Stranger unto the Right Way of the Lord, as now thou appeareſt to be. And therefore we do deſire all that may Read or hear theſe Lines, to be mindful of the Leadings of Gods Spirit in your own Hearts (to wit) the Spirit of Truth, which Guideth into all Truth, <hi>John</hi> 16. 13.</p>
+               <closer>
+                  <dateline>
+                     <hi>Exon,</hi> 
+                     <date>the <hi>8th</hi> Month, 1691.</date>
+                  </dateline>
+                  <signed>John Gannacliff, Joſeph Nott.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>Now having Anſwered <hi>Joſeph Hallett's</hi> Twenty Seven Queries, we ſhall propound ſome Queries for him, or any of the Preachers among the <hi>Presbyterians,</hi> to Anſwer.</head>
+               <p>
+                  <hi>Query</hi> 1. WHat was that Labour in the Goſpel that them Women labour<g ref="char:EOLhyphen"/>ed with the Apoſtle <hi>Paul</hi> in <hi>Phil.</hi> 4. 3. if not preaching the Goſpel? And if Preaching the Goſpel, why then are we blamed for ſuffer<g ref="char:EOLhyphen"/>ing Women to preach amongſt us?</p>
+               <p>
+                  <hi>Qu.</hi> 2. What is that one Baptiſm that the Apoſtle <hi>Paul</hi> ſpoke of, <hi>Ephſ.</hi> 4. 5. if not a Spiritual Baptiſm? ſeeing he ſaith, <hi>By one Spirit are we all baptized,</hi> 1 Cor. 12. 13. Is not this the Baptiſm that is only eſſential to Salvation?</p>
+               <p>
+                  <hi>Qu.</hi> 3 What is that true Light which lighteth every man that cometh into the World, <hi>John</hi> 1. 9. if not the Divine Life and Light of Chriſt? And if it be the Light of Chriſt, why then do ſo many call it <hi>a natural Light, diabolical?</hi> &amp;c</p>
+               <pb n="23" facs="tcp:47401:12"/>
+               <p>
+                  <hi>Qu.</hi> 4. Whether the Grace of God that bringeth Salvation, which hath ap<g ref="char:EOLhyphen"/>peared to all men, <hi>Tit.</hi> 2. 11. be not ſaving? And if it be ſaving, why then do ſo many ſay, That the ſaving Grace hath not appeared unto all men?</p>
+               <p>
+                  <hi>Qu.</hi> 5. Whether Chriſt be not the Word of God, and the holy Scriptures a true Teſtimony of him; ſeeing Chriſt ſaith, <hi>They are they which teſtifie of me?</hi> John 5. 39. And the Scripture calls Chriſt the Word of God, <hi>John 1. 1. Rev.</hi> 19. 13. And if ſo, why then do any blame us for ſaying Chriſt is the <hi>Word of God,</hi> and not the Scriptures?</p>
+               <p>
+                  <hi>Qu.</hi> 6. Whether People ought not firſt to ſeek the Kingdom of God and his Righteouſneſs, ſeeing that Chriſt bids us do ſo? <hi>Mat.</hi> 6. 33. And where muſt People ſeek it, if not in their own Hearts, ſeeing Chriſt ſaith, <hi>The King<g ref="char:EOLhyphen"/>dom of God is within you?</hi> Luk. 17. 21. And whether <hi>Chriſt</hi> ought not to rule and reign in his Kingdom, and to have the Government of the Hearts, Minds and Affections of the Sons and Daughters of men? And if it be granted that he ought, why then are we blamed for Preaching of <hi>Chriſt within, the Hope of our Glory?</hi> Col. 1. 27.</p>
+               <p>
+                  <hi>Qu.</hi> 7. Whether the Spirit of Truth be not the Spirit of Chriſt, ſeeing he ſaith, <hi>I am the Truth?</hi> John 14. 6. And whether every Man and Woman ought not to be led and guided by the Spirit of Truth in their own Hearts, ſeeing it guideth into all Truth, <hi>chap.</hi> 16. 13. And that as many as are led by the Spirit of God, they are the Sons of God? <hi>Rom.</hi> 8. 14.</p>
+               <p>
+                  <hi>Qu.</hi> 8. Whether People may not attain to the Knowledge of God by the Immediate Revelation of <hi>Jeſus Chriſt,</hi> now in our day? ſeeing it is written, <hi>They ſhall all know the Lord,</hi> Jer. 31. 34. Heb. 8. 11. And if people may, then where, if not in their own Hearts? ſeeing that <hi>which may be known of God is manifeſt within?</hi> Rom. 1. 19.</p>
+               <p>
+                  <hi>Qu.</hi> 9. Whether People ought not to wait to be ſet free from Sin by Jeſus Chriſt, ſeeing it is ſaid, <hi>He ſhall ſave his People from their Sins,</hi> Mat. 1. 21. And Chriſt ſaith, <hi>No man can ſerve two Maſters?</hi> chap. 6. 24.</p>
+               <p>
+                  <hi>Qu.</hi> 10. Whether every true Worſhiper ought not to worſhip God in Spi<g ref="char:EOLhyphen"/>rit and in Truth, ſeeing Chriſt ſaith, <hi>The true Worſhipers ſhall worſhip the Father in Spirit and in Truth?</hi> And whether there be any other true Way of Worſhip beſide this, ſeeing Chriſt farther ſaith, <hi>God is a Spirit, and they that Worſhip him, muſt Worſhip him in Spirit and in Truth?</hi> John 4. 23, 24.</p>
+               <p>
+                  <hi>Qu.</hi> 11. Whether the Apoſtles did not direct People unto this Inward Teacher? See 2 <hi>Cor. 4. 6, 7. Col. 1. 27. 2 Pet. 1. 19. 1 John</hi> 2. 27. And if they did, why then do not many now in our day, that profeſs themſelves Mi<g ref="char:EOLhyphen"/>niſters of Chriſt, direct people unto this inward Teacher?</p>
+               <p>
+                  <hi>Qu.</hi> 12. Whether this inward Teacher, the Spirit and Grace of God, be not ſufficient to teach People, as they turn in their minds unto it, and wait in ſilence for the Teachings of it, although there may be no outward Teacher, ſeeing the Apoſtles were taught by the Grace of God, <hi>Tit.</hi> 2. 12. And <hi>John</hi> ſaith<g ref="char:punc">▪</g> The <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+                  <pb n="24" facs="tcp:47401:13"/>
+                  <hi>the ſame Ancinting teacheth you of all things,</hi> 1 John 2. 27. And if it be ſufficient, why then are we blamed for waiting in ſilence for the teachings of it?</p>
+               <p>
+                  <hi>Qu.</hi> 13. Whether People muſt not walk in the Light of Jeſus Chriſt, where<g ref="char:EOLhyphen"/>with they are lighted, if they will have benefit by his Death, ſeeing it is writ<g ref="char:EOLhyphen"/>ten, <hi>If we walk in the Light, the Blood of Jeſus Chriſt cleanſeth us from all Sin?</hi> 1. John 1. 7.</p>
+               <p>
+                  <hi>Qu.</hi> 14. Where have you any Example from the holy Scriptures, for the putting off the Hat to Man; and to uſe the word <hi>Tou<g ref="char:punc">▪</g>
+                  </hi> to one?</p>
+               <p>
+                  <hi>Qu.</hi> 15. Whether you have the Spirit of Chriſt or not, ſeeing its written, <hi>If any man have not the Spirit of Chriſt, he is none of his?</hi> Rom. 8. 9. And whe<g ref="char:EOLhyphen"/>ther you are fitted and prepared, authorized and ſent forth to preach the Goſ<g ref="char:EOLhyphen"/>pel by the Spirit of the Lord? And if not, why then do you Preach, ſeeing that <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hey which run, and the Lord never ſent them, ſhall not profit the People at all? <hi>Jer.</hi> 23. 24.</p>
+               <p>
+                  <hi>So n<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>w we deſire of</hi> Joſeph Hallett, <hi>or ſome of the before-mentioned People, to give their Judgment of theſe things, in their Anſwers.</hi>
+               </p>
+               <closer>
+                  <signed>
+                     <list>
+                        <item>John Gannacliff,</item>
+                        <item>Joſeph Nott.</item>
+                     </list>
+                  </signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>A few more Queſtions propounded according to Scripture, for the ſaid <hi>Joſeph Hallett,</hi> or any of the Preachers aforeſaid to anſwer, which are added by another Hand.</head>
+               <p>
+                  <hi>Query</hi> 1. WH<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ther <hi>Joſeph Hallett</hi> or you do believe that them <hi>Presbyterians</hi> in <hi>New-England</hi> were not guilty of Murther, in Hanging them Innocent Perſons, called <hi>Quakers,</hi> in the year 1658, and 1659? if not by what Law of God or the King did they it?</p>
+               <p>
+                  <hi>Qu.</hi> 2. Whether in thoſe Acts of Cruelty, to wit, of Impriſoning, Whip<g ref="char:EOLhyphen"/>ping, Burning, Cuting off Ears, and Hanging, they acted like Chriſt and ac<g ref="char:EOLhyphen"/>cording to his Doctrine? or like the Devil, who was a Murtherer from the b<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ginning? <hi>John</hi> 8. 44.</p>
+               <p>
+                  <hi>Qu.</hi> 3. Whether the learned <hi>Jews</hi> were not Blind Leaders of the Blind, and wit out a right underſtanding (and who notwithſtanding they had Scriptures; and did they not ſo err) that they killed the Prophets, and Murthered the Son or God? <hi>Mat</hi> 22<g ref="char:punc">▪</g> 29. and 23<g ref="char:punc">▪</g> 27. <hi>Acts</hi> 7. 52.</p>
+               <p>
+                  <hi>Qu.</hi> 4. Whether the Scriptures are Rightly underſtood by the Spirit of God, or by Humane Learning, to wit, <hi>Latine, Greek</hi> and <hi>Hebrew?</hi> Or whether by Hu<g ref="char:EOLhyphen"/>mane Learning any man can or did ever attain to the Knowledge of the things of God, ſeeing the Apoſtle ſays, <hi>The World by Wiſdom knew not God?</hi> 1 Cor. 1. 21.</p>
+               <p>
+                  <hi>Qu.</hi> 5. Whether <hi>Joſeph Hallett,</hi> or any of the reſt of the Teachers of the <hi>Presbyterians,</hi> do perform any act or part of Worſhip towards God without the aſſiſtance of the Spirit of God? If they do, are they not like the falſe Pro<g ref="char:EOLhyphen"/>phets, <hi>Jer.</hi> 29. 9. And Will-Worſhipers, and found offering ſtrange Fire? <hi>Levit.</hi> 10. 1, 2, 3.</p>
+            </div>
+            <trailer>THE END.</trailer>
+            <pb n="22" facs="tcp:47401:14"/>
+            <pb facs="tcp:47401:14"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb facs="tcp:47401:15"/>
+            <pb facs="tcp:47401:15"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="4" facs="tcp:47401:16"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="5" facs="tcp:47401:16"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="6" facs="tcp:47401:17"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="7" facs="tcp:47401:17"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="8" facs="tcp:47401:18"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="9" facs="tcp:47401:18"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="10" facs="tcp:47401:19"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="11" facs="tcp:47401:19"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="12" facs="tcp:47401:20"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="13" facs="tcp:47401:20"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="14" facs="tcp:47401:21"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="15" facs="tcp:47401:21"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="16" facs="tcp:47401:22"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="17" facs="tcp:47401:22"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="18" facs="tcp:47401:23"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="19" facs="tcp:47401:23"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="20" facs="tcp:47401:24"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="21" facs="tcp:47401:24"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="22" facs="tcp:47401:25"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="23" facs="tcp:47401:25"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="24" facs="tcp:47401:26"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb facs="tcp:47401:26" rendition="simple:additions"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+         </div>
+      </body>
+   </text>
+</TEI>
